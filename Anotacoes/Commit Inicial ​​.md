@@ -23,5 +23,5 @@
 * No terminal do _Git Bash_ naveguei até a _branch_ principal Minhas-Anotacoes.
 * Utilizando o comando _git status_ visualizei as pastas e os arquivos criados no repositório e que estavam _untracked_, não rastreados pelo Git.
 * Com o comando _git add ._ adicionei todos ao mesmo tempo para área de _staging_, onde aguardam para serem comitados.
-* Com o comando _git commit -m "texto explicativo"_ enviei todos para meu repositório local, minha máquina.
+* Com o comando _git commit -m "Passo a passo do exercício Desafio do Projeto Criando Repositório no GitHub"_ enviei todos para meu repositório local, minha máquina.
 * Com o comando _git push origin main_, enviei todas as pastas e arquivos criados em meu repositório local (minha máquina), para meu repositório remoto (meu GitHub).
