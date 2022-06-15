@@ -1,5 +1,0 @@
-#ignora qualquer arquivo com a extensão .gitignore
-*.gitignore
-
-#ignora a pasta img-pessoal
-Curso-HTML5-CSS3/img-pessoal/
