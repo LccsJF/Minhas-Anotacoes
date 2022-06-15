@@ -1,0 +1,5 @@
+#ignora qualquer arquivo com a extensão .gitignore
+.gitignore
+
+#ignora a pasta img-pessoal
+.img-pessoal
