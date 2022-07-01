@@ -27,10 +27,24 @@
    	var a = 11; //redefini o valor da variável "a" dentro do escopo para 11
    	let b = 22; //declarei a variável "b" dentro do escopo bloco com let para 22
 
+<<<<<<< HEAD
    	console.log(a); //retorna 11
    	console.log(b); //retorna 22
    }
    ```
+=======
+      ​	`var a = 11;` <!--redefini o valor da variável a dentro do escopo-->
+
+      ​	`let b = 22;` <!--declarei a variável b dentro do escopo bloco utilizando let-->
+
+      ​	
+
+      ​	`console.log(a);` <!--retorna 11-->
+
+      ​	`console.log(b);` <!--retorna 22-->
+
+   `}`
+>>>>>>> a2dd46cdbe53d7f2ee75afdf3530c8ba085ad1bc
 
    `console.log(a);` <!--retorna 11-->
 
