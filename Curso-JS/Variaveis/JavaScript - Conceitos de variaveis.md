@@ -22,23 +22,19 @@
 
    `var b = 2;`
 
-   `if(a === 1) {`<!--se a é igual a 1-->
+   ```javascript
+   if(a === 1) { //se a é igual a 1
+   	var a = 11; //redefini o valor da variável "a" dentro do escopo para 11
+   	let b = 22; //declarei a variável "b" dentro do escopo bloco com let para 22
 
-   ​	`var a = 11;` <!--redefini o valor da variável a dentro do escopo-->
-
-   ​	`let b = 22;` <!--declarei a variável b dentro do escopo bloco utilizando let-->
-
-   ​	
-
-   ​	`console.log(a);` <!--retorna 11-->
-
-   ​	`console.log(b);` <!--retorna 22-->
-
-   `}`
+   	console.log(a); //retorna 11
+   	console.log(b); //retorna 22
+   }
+   ```
 
    `console.log(a);` <!--retorna 11-->
 
-   `console.log(b);` <!--retorna 2 - o valor refere-se a variável declarada fora do escopo do if, pois a variável let só pode ser declarada dentro de um escopo específico e para ser chamada é preciso estar declarada fora do escopo-->
+   `console.log(b);` <!--retorna 2 - o valor refere-se a variável declarada fora do escopo de bloco; a variável let só pode ser declarada dentro de um bloco específico e ser chamada dentro dele-->
 
    ------
 
