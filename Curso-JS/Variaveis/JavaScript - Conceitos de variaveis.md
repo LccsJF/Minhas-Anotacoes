@@ -24,15 +24,15 @@
 
    `if(a === 1) {`<!--se a é igual a 1-->
 
-   ​	`var a = 11;` <!--redefini o valor da variável a dentro do escopo-->
+      ​	`var a = 11;` <!--redefini o valor da variável a dentro do escopo-->
 
-   ​	`let b = 22;` <!--declarei a variável b dentro do escopo bloco utilizando let-->
+      ​	`let b = 22;` <!--declarei a variável b dentro do escopo bloco utilizando let-->
 
-   ​	
+      ​	
 
-   ​	`console.log(a);` <!--retorna 11-->
+      ​	`console.log(a);` <!--retorna 11-->
 
-   ​	`console.log(b);` <!--retorna 22-->
+      ​	`console.log(b);` <!--retorna 22-->
 
    `}`
 
