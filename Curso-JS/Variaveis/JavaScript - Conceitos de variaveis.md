@@ -22,39 +22,29 @@
 
    `var b = 2;`
 
+   ​
+
    ```javascript
    if(a === 1) { //se a é igual a 1
    	var a = 11; //redefini o valor da variável "a" dentro do escopo para 11
    	let b = 22; //declarei a variável "b" dentro do escopo bloco com let para 22
 
-<<<<<<< HEAD
-   	console.log(a); //retorna 11
-   	console.log(b); //retorna 22
+      	console.log(a); //retorna 11
+      	console.log(b); //retorna 22
    }
    ```
-=======
-      ​	`var a = 11;` <!--redefini o valor da variável a dentro do escopo-->
 
-      ​	`let b = 22;` <!--declarei a variável b dentro do escopo bloco utilizando let-->
-
-      ​	
-
-      ​	`console.log(a);` <!--retorna 11-->
-
-      ​	`console.log(b);` <!--retorna 22-->
-
-   `}`
->>>>>>> a2dd46cdbe53d7f2ee75afdf3530c8ba085ad1bc
+     
 
    `console.log(a);` <!--retorna 11-->
 
    `console.log(b);` <!--retorna 2 - o valor refere-se a variável declarada fora do escopo de bloco; a variável let só pode ser declarada dentro de um bloco específico e ser chamada dentro dele-->
 
-   ------
+------
 
-   O ideal desde a última atualização do JS é utilizar a variável *let*, desde que seja declarada fora de qq escopo para ser tornar *global* dentro de todo código.
+   	O ideal desde a última atualização do JS é utilizar a variável *let*, desde que seja declarada fora de qq 		escopo para ser tornar *global* dentro de todo código.
 
-   ------
+------
 
    ​
 
@@ -86,7 +76,7 @@
 
    *TypeError: Assignment to constant variable.* 
 
-   \- a variável declarada "FIRST_NAME = "André" é do tipo "hoisting: var", então ela será lida no início do escopo global, enquanto na mensagem de erro, é uma variável do tipo constante, ou seja, sempre será "Eduardo", não pode ser mudada.
+   \- a variável declarada **FIRST_NAME = "André** é do tipo **hoisting: var**, então ela será lida no início do escopo global, enquanto na mensagem de erro, é uma variável do tipo constante, ou seja, sempre será **Eduardo**, não pode ser mudada.
 
    ​
 
