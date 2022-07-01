@@ -1,3 +1,7 @@
+---
+
+---
+
 # JavaScript
 
 ## 	Conceitos de Variáveis 
@@ -97,7 +101,9 @@ O ideal desde a última atualização do JS é utilizar a variável *let*, desde
 
 4. ### **var, let, const**
 
-   ![escopo](F:\Minhas-Anotacoes\Curso-JS\Variaveis\escopo.jpg)
+   ![escopo](escopo.jpg)
+
+   ​
 
    ​
 
