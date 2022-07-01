@@ -34,7 +34,6 @@
    }
    ```
 
-     
 
    `console.log(a);` <!--retorna 11-->
 
@@ -42,7 +41,7 @@
 
 ------
 
-   	O ideal desde a última atualização do JS é utilizar a variável *let*, desde que seja declarada fora de qq 		escopo para ser tornar *global* dentro de todo código.
+O ideal desde a última atualização do JS é utilizar a variável *let*, desde que seja declarada fora de qq 		escopo para ser tornar *global* dentro de todo código.
 
 ------
 
