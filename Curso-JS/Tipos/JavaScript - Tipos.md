@@ -2,7 +2,7 @@
 
 ### Estrutura de Dados
 
-![estrutura](C:/Users/sleep/Downloads/estrutura.jpg)
+### ![estrutura](img/estrutura.jpg)
 
 A estrutura de dados do JS é **dinâmica**, ou seja, você pode modificar o *tipo de valor* em uma variável. Se uma variável é uma **string**, posso declara-la novamente como **number**. Conforme o programa vai rodando você pode modificar o tipo dela. Para visualizar o tipo de utilizando dentro da variável, basta digitar o comando: *typeof + nome-variável;* Ex: 
 
@@ -46,7 +46,7 @@ typeof um
 
 - Contém métodos dentro deles; objects e arrays;
 
-  ![tipos](C:/Users/sleep/Downloads/tipos.jpg)
+![tipos](img/tipos.jpg)
 
 ---
 
@@ -56,9 +56,7 @@ typeof um
 
 * São utilizadas basicamente para **texto**; valores sempre declarados entre **aspas** ("") ou **crases** (``); podem ser *interpoladas*, ou seja, escrever uma **string** com **variáveis** ou até **html**, dependendo de como está consumindo essa string dentro do código; são as *templates strings*. 
 
-Ex: 
-
-![string](C:/Users/sleep/Downloads/string.jpg)
+Ex: ![string](img/string.jpg)
 
 - onde declaro a função *fullName* como uma parte de texto e passar junto as variáveis *firstName* e *lastName*, utilizando o *dólar* **${firstName}** e entre chaves;
 
@@ -69,7 +67,7 @@ Ex:
 
 - - Para transformar uma *string* em **object** (objeto) basta escrever a palavra **String** com a letra **S** em maiúsculo e o texto entre aspas dentro de parênteses: **let exemplo = new String("blablabla");** o comando **typeof** me mostra que é um objeto: *typeof exemplo* = ***'object'***; retorna todo conteúdo dentro do índice; **prototype**: métodos que posso utilizar em uma string; 
 
-    ![string-object](C:/Users/sleep/Downloads/string-object.jpg)
+    ![string-object](img/string-object.jpg)
 
   - Não confundir ***tamanho*** com ***índice***; o *índice* começa do **0 (zero)** e o *tamanho* começa do **1 (um)**; quando chamo uma variável e coloco o número entre colchetes [], estou chamando um índice: **var nome = "João"** / **nome[1]**  / **"o"**; para saber o tamanho: **nome.lenght** / **4**; 
 
@@ -87,7 +85,7 @@ Ex:
 
   - utilizando a **crase (`)** fica mais fácil colocar qualquer de elemento, sintaxe dentro de uma variável num código em JS;
 
-    ![string-resumo](C:/Users/sleep/Downloads/string-resumo.jpg)
+    ![string-resumo](img/string-resumo.jpg)
 
 ---
 
@@ -141,11 +139,11 @@ Ex:
 
 # Booleans (Boleanos)
 
-1. Vai retornar sempre **verdadeiro ou falso**; posso validar condicionais; sempre que eu declarar alguma variável e a condição for uma comparação, ele retornará um valor **boleano**:     
+1. Vai retornar sempre **verdadeiro ou falso**; posso validar condicionais; sempre que eu declarar alguma variável e a condição for uma comparação, ele retornará um valor **boleano**:    
 
-   ![boleanos2](C:/Users/sleep/Downloads/boleanos2.jpg) retorna **false**, pois **3** é diferente de **0**;
+2. ![boleanos2](img/boleanos2.jpg)  retorna **false**, pois **3** é diferente de **0**;
 
-2. Pode transformar o valor em *string* **(validation.toString)**: 
+3. Pode transformar o valor em *string* **(validation.toString)**: 
 
    ```javascript
    validation.toString()
@@ -154,7 +152,7 @@ Ex:
 
    ​
 
-3. Para ver o contrário de um valor boleano é só colocar uma ! (exclamação) na frente da variável:
+4. Para ver o contrário de um valor boleano é só colocar uma ! (exclamação) na frente da variável:
 
    ```javascript
    !validation
@@ -171,13 +169,13 @@ Ex:
 
 1. São listas iteráveis de elementos e propriedade **index** (índice); lembrando *índice* começa de **zero (0)**; tem a propriedade **lenght** (tamanho) que vai mostrar o tamanho, quantos itens tem na lista;
 
-   ![array1](C:/Users/sleep/Downloads/array1.jpg)
+   ![array1](img/array1.jpg)
 
 2. Para iniciar um **array** sempre utilizo **colchetes []**; pode ser vazio; 
 
 3. Para adicionar um item no array utilizo o método **push**:
 
-   ![array2](C:/Users/sleep/Downloads/array2.jpg)
+   ![array2](img/array2.jpg)
 
    - utilizei o método **push** na minha variável array e inseri os *números 3 e 2*; ele retorna o **lenght** (tamanho) da minha lista: **2** e os *elementos*: **(2)  [3, 2]** .
 
