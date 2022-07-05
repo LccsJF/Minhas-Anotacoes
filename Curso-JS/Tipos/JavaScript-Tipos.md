@@ -190,9 +190,81 @@ Ex: ![string](img/string.jpg)
 
      ​
 
-4. Iterabilidade quer dizer que posso fazer operações em cada um dos meus elementos do meu array;
+4. Iterabilidade quer dizer que posso fazer operações em cada um dos elementos do meu array;
+
+
+---
+
+
+
+# Objetos
+
+1. Objetos sempre são declarados entre **chaves {}**; cada valor terá uma **{}** conforme exemplo abaixo, onde a chave `name` o valor é `'John'` e a chave `age` o valor é `20`; é uma estrutura do tipo **chave-valor**; sempre que precisarmos definir um comportamento **chave-valor**, utilize **objetos**;
+
+![objetos1](img/objetos1.jpg)
+
+2. Para saber os **valores (values)** dentro de uma variável objeto, utilize: 
+
+   ```javascript
+   Object.values(obj)
+   ```
+
+   ![values](img/values.jpg)
+
+
+3. Para saber os **chaves (keys)** dentro de uma variável objeto, utilize: 
+
+   ```javascript
+   Object.keys(obj)
+   ```
+
+   ![keys](img/keys.jpg)
+
+
+4. Posso definir as minhas **chaves** dentro de uma **única variável objeto**; são separados por **vírgulas (,)**; **string entre aspas ("")**; **sempre após a chave, utilize (:)** e em seguida o **valor**; cada valor pertence a uma chave;
+
+![unica-variavel](img/unica-variavel.jpg)
+
+5. Para adicionar uma **nova variável** dentro de outra: criar nova e em seguida **declarar entre colchetes "[]" para enviá-la para a variável existente**; 
+
+   se escrever utilizando **ponto (.)** após o nome da variável **person**: 
+
+   ```javascript
+   person.sister = "Amanda";
+   ```
+
+   crio uma nova variável, e não será enviada para variável **person**;   
 
    ​
+
+   Ex: criei as variáveis abaixo
+
+   ```javascript
+   let sister = "nameOfSister";
+   let mon = "nameOfMom"; 
+   ```
+
+   declarei seus valores específicos:
+
+   ```javascript
+   person[sister] = "Amanda";
+   person[mom] = "Patrícia";
+   ```
+
+   ![nova-variavel](img/nova-variavel.jpg)
+
+---
+
+
+
+
+
+
+
+
+
+
+
 
 
 
