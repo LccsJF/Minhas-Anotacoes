@@ -255,17 +255,49 @@ Ex: ![string](img/string.jpg)
 
 ---
 
+# Empty, Undefined e Null
 
+1. São valores diferentes que retornarão `false` *(boleano)*; estão vazios, nulos, indefinidos, não existem.
 
+![empty1](img/empty1.jpg)
 
+---
 
+#### Empty
 
+- São variáveis declaradas vazias; variável **number**, você declarou como **zero (0)**; **string**, declarar com **aspas (" ") vazias**; **array**, **colchetes [ ] vazios**; **objetos**, **chaves { } vazias**; não tem nenhum valor dentro;
 
+![empty2](img/empty2.jpg)
 
+---
 
+#### Null
 
+- **É quando você quer que aquele valor propositalmente não exista, não foi inicializado, realmente seja falso; não retorna undefined, pois foi definido como null (nulo);
 
+![null](img/null.jpg)
 
+---
+
+#### Undefined
+
+- Esse valor é indefinido, você nem declarou, não existe;![undefined](img/undefined.jpg)
+
+---
+
+Para saber mais
+
+[NULL vs UNDEFINED vs EMPTY In Javascript (A Simple Guide)](https://code-boxx.com/javascript-null-vs-undefined-vs-empty/)
+
+[Estrutura de dados do Javascript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Data_structures)
+
+[Sintaxe e tipos](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Guide/Grammar_and_types)
+
+[Entendendo os tipos e variáveis em JavaScript](https://medium.com/trainingcenter/entendendo-os-tipos-e-variaveis-em-javascript-f9753b4c7b61#:~:text=uma%20vari%C3%A1vel%20diferente.-,Tipos%20de%20vari%C3%A1veis%20em%20JavaScript,operadores%20booleanos%20(true%20ou%20false))
+
+[JavaScript Data Types](https://www.w3schools.com/js/js_datatypes.asp)
+
+---
 
 
 
