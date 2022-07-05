@@ -1,4 +1,4 @@
-# JavaScript
+# JavaScript 
 
 ### Estrutura de Dados
 
@@ -285,17 +285,17 @@ Ex: ![string](img/string.jpg)
 
 ---
 
-Para saber mais
+### Para saber mais:
 
-[NULL vs UNDEFINED vs EMPTY In Javascript (A Simple Guide)](https://code-boxx.com/javascript-null-vs-undefined-vs-empty/)
+[NULL vs UNDEFINED vs EMPTY In Javascript (A Simple Guide)](https://code-boxx.com/javascript-null-vs-undefined-vs-empty/);
 
-[Estrutura de dados do Javascript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Data_structures)
+[Estrutura de dados do Javascript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Data_structures);
 
-[Sintaxe e tipos](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Guide/Grammar_and_types)
+[Sintaxe e tipos](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Guide/Grammar_and_types);
 
-[Entendendo os tipos e variáveis em JavaScript](https://medium.com/trainingcenter/entendendo-os-tipos-e-variaveis-em-javascript-f9753b4c7b61#:~:text=uma%20vari%C3%A1vel%20diferente.-,Tipos%20de%20vari%C3%A1veis%20em%20JavaScript,operadores%20booleanos%20(true%20ou%20false))
+[Entendendo os tipos e variáveis em JavaScript](https://medium.com/trainingcenter/entendendo-os-tipos-e-variaveis-em-javascript-f9753b4c7b61#:~:text=uma%20vari%C3%A1vel%20diferente.-,Tipos%20de%20vari%C3%A1veis%20em%20JavaScript,operadores%20booleanos%20(true%20ou%20false));
 
-[JavaScript Data Types](https://www.w3schools.com/js/js_datatypes.asp)
+[JavaScript Data Types](https://www.w3schools.com/js/js_datatypes.asp);
 
 ---
 
