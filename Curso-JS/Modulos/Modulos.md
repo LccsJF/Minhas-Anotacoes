@@ -2,7 +2,7 @@
 
 - Arquivos JavaScript com a capacidade de **importar** e **exportar** informações de **outros arquivos** do mesmo tipo;
 
-  ![modulo1](F:\Minhas-Anotacoes\Curso-JS\Modulos\img\modulo1.jpg)
+  ![modulo1](img/modulo1.jpg)
 
 ### Vantagens
 
