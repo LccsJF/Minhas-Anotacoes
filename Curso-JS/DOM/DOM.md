@@ -4,7 +4,7 @@
 
 - O DOM HTML é um padrão de como acessar e modificar elementos HTML dentro de uma página; estamos falandos dos nós que representam cada elemento que está numa página;
 
-![dom](F:\Minhas-Anotacoes\Curso-JS\DOM\img\dom.jpg)
+  ![dom](img/dom.jpg)
 
 ---
 
