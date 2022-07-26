@@ -1,16 +1,9 @@
-let button = document.getElementById('button');
-let input1 = document.getElementById('input1') as HTMLInputElement;
-let input2 = document.getElementById('input2') as HTMLInputElement;
+//Never e o comando Throw
 
-function adicionarNumero(numero1: number, numero2: number) { /*no typescript é preciso "tipar" as variáveis,
-identificar o tipo para os parâmetros: number, string / Ex: numero1: number, numero2: number */
-    return numero1 + numero2
+//never é um código que nunca é finalizado; foi encerrado abruptamente; é muito raro ser utilizado;
+//throw interrompe a função e lança o erro e acaba a função;
+function jogaErro(erro: string, codigo: number): never {
+    throw{Error: erro, code: codigo};
 }
 
-if(button) {
-    button.addEventListener('click', () => {
-        if(input1 && input2) {
-            console.log(adicionarNumero(Number(input1.value), Number(input2.value)));
-        }     
-    })
-}
+jogaErro('deu erro,', 500);
