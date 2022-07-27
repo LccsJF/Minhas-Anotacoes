@@ -1,3 +1,4 @@
+"use strict";
 /* posso utilizar mais de um tipo para definir uma função; no "if" aplico a validação para ambos como 'string';
 no return reforço para converter para 'string' = .toString(), caso haja algum tipo number ou boolean; */
 function somarValores(input1, input2) {
@@ -13,4 +14,3 @@ console.log(somarValores(1, 5));
 console.log(somarValores('Olá,', ' tudo bem?'));
 console.log(somarValores('1', 5));
 console.log(somarValores('Que dia é hoje? ', 5));
-//# sourceMappingURL=tipos.js.map

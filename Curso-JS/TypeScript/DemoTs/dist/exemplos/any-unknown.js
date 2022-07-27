@@ -1,3 +1,4 @@
+"use strict";
 //Any e Unknown
 var anyEstaDeVolta;
 anyEstaDeVolta = 3;
@@ -20,4 +21,3 @@ no caso, confirmar se "unknown" é realmente uma "string"; */
 if (typeof unknownValor === 'string') {
     return stringTest2 = unknownValor;
 }
-//# sourceMappingURL=any-unknown.js.map

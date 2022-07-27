@@ -79,6 +79,19 @@
 
 
 
+# tsconfig.json
+
+- **"target":  "es5"** - determina qual versão do EcmaScript está rodando quando o código é gerado; essa versão é de 2015, caso precise rodar em browsers desatualizados;
+- **"lib": ["dom", "es6", "DOM.Iterable", "ScriptHost"]** - são algumas bibliotecas para identificar comandos e seus significados dentro do typescript;
+- **"outDir": "dist"** - armazena os arquivos JS gerados a partir dos arquivos TS irão;
+- **"rootDir": "src"** - diz que os arquivos TS quando criados enviem os JS para **"dist"**;
+- **"noImplicityAny": true** - Gera erro em expressões e declarações com um tipo 'any' implícito.
+- **"strictNullChecks": true** - Ativar verificações 'null'estritas;
+
+---
+
+
+
 
 
 

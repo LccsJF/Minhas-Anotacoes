@@ -1,3 +1,4 @@
+"use strict";
 var pessoa = {
     nome: 'Cláudio',
     idade: 54,
@@ -52,4 +53,3 @@ function listar(lista) {
     }
 }
 listar(mariana.materias);
-//# sourceMappingURL=exemplo-ts.js.map
